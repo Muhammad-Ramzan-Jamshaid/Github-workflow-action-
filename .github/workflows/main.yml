@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: greetings
-        run: echo"kam hogya"
+        run: echo "kam hogya"
