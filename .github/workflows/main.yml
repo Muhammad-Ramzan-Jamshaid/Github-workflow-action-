@@ -1,13 +1,12 @@
-name: Muhammad-Ramzan-jamshaid
+name: demo workflow
 
 on:
   push:
-    branches: [main]
-
+    branches: [ main ]
+    
 jobs:
   demo:
     runs-on: ubuntu-latest
-
-   steps:
-   - name: greetings
-     run: echo"kam hogya"
+    steps:
+      - name: greetings
+        run: echo"kam hogya"
