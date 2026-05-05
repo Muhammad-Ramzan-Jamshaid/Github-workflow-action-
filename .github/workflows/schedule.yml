@@ -1,0 +1,14 @@
+name:  schedule jobs
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+    
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "kam hogya"
+    
